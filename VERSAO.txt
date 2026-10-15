@@ -1,0 +1,17 @@
+SALES_WINDOW_V1_2026_09_26
+
+Atualização aplicada sobre os arquivos enviados pelo usuário.
+
+Inclui:
+- botão VENDAS na janela principal;
+- botão TROCAS como placeholder profissional;
+- nova janela de venda/orçamento;
+- busca de cartas disponíveis no estoque;
+- adição de itens à venda;
+- item manual;
+- desconto percentual;
+- cálculo automático de subtotal, desconto e total;
+- exportação Excel .xlsx com openpyxl.
+
+Observação:
+Este primeiro modelo monta orçamento/venda e exporta Excel. Ainda não baixa automaticamente o estoque nem grava histórico de vendas no SQLite; isso fica preparado para a próxima etapa.
